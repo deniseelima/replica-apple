@@ -1,0 +1,80 @@
+
+#iphone {
+    width: 70px;
+    height: 70px;
+}
+
+#menu {
+    font-size: 17px;
+    font-style: normal;
+    margin: 100px;
+
+
+}
+
+main {
+    margin-left: 120px;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.menu {
+    word-spacing: 30px;
+    width: auto;
+    height: 44px;
+    user-select: none;
+
+}
+
+.menu a.special {
+    word-spacing: normal;
+
+    /* Isso redefine o espaçamento entre palavras para o padrão */
+}
+
+span {
+    color: #6e6e73;
+    display: inline;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* Centralizar verticalmente */
+    gap: 20px;
+    /* Espaço entre as duas colunas */
+}
+
+#sales {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.item {
+    text-align: center;
+}
+
+.container-left {
+    font-size: 25px;
+
+
+}
+
+.container-right {
+    padding-right: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(138, 137, 137);
+    font-size: 14px;
+}
+
+*{
+    background-color: rgb(244, 244, 244);
+}
+
